@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --font-family: "Arvo", serif;
+    --bg-color: #8C3061;
+    --primary-color: #fff;
+    --second-color: #eb5c7f;
+}
+
+body {
+    background-color: #8C3061;
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 40px;
+}
+
+.box {
+    border: 2px solid #eb5c7f;
+    display: inline-block;
+    font-size: 4em;
+    padding: 10px;
+    margin: 20px;
+}
+
+.btn-jogar {
+    padding: 8px 15px;
+    outline: none;
+    border: 3px solid #eb5c7f;
+    background-color: #8C3061;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #eb5c7f;
+    font-family: var(--font-family);
+    cursor: pointer;
+}
